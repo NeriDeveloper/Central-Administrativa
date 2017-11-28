@@ -1,0 +1,11 @@
+.container{
+    background-color: white;
+}
+
+.container table tr{
+    cursor: pointer;
+}
+
+.container table tr:hover{
+    background-color: rgba(23, 168, 255, 0.37);
+}

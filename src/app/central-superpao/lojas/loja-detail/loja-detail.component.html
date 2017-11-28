@@ -1,0 +1,19 @@
+<div class="recipiente col-lg-12">
+  <div class="col-lg-12 text-center">
+    <h2>{{loja.nome}}</h2>
+  </div>
+  <div class="col-lg-6 detalhes_lojas">
+
+    <p><span>Endereço: </span>{{loja.endereco}}</p><hr>
+    <p><span>CNPJ: </span>{{loja.cnpj}}</p><hr>
+    <p><span>Telefone: </span>{{loja.telefone1}}</p><hr>
+  </div>
+  <div class="col-lg-6 text-center">
+    <img src="assets/logos/small_logo_{{loja.bandeira}}.png" width="80%">
+  </div>
+  <div class="col-lg-12 mapa">
+    <sebm-google-map [latitude]="loja.latitude" [longitude]="loja.longitude" [zoom]="15" >
+      <sebm-google-map-marker [latitude]="loja.latitude" [longitude]="loja.longitude"></sebm-google-map-marker>
+    </sebm-google-map>
+  </div>
+</div>

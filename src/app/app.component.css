@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Sintony');
+
+.menu_central {
+    background-color: #1468a0;
+    color: white;
+    padding: 0px;
+}
+
+.img_cabecalho{
+    width: 100%;
+    margin: auto;
+}
+.menu_central ul li {
+    padding: 10px;
+}
+
+.menu_central ul {
+    margin: 0px;
+}
+
+.menu_central a {
+    color: white;
+    height: 100%;
+    padding: 11px;
+    font-size: 18px;
+}
+
+.menu_central ul li:hover a {
+    color: #1468a0;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.menu_central .active{
+    background-color: white;
+    color: #1468a0;
+}
+
+.creat_by{
+    font-size: 10px;
+}

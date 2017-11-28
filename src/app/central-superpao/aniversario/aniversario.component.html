@@ -1,0 +1,33 @@
+<div class="recipiente col-md-12">
+    <div class="col-md-12 text-center">
+        <h2>Aniversariantes</h2>
+        <p>Clique em uma loja abaixo para vizualizar os aniversariantes </p>
+    </div>
+    <div class="col-md-3 lojas text-center">
+        <div class="col-md-12 loja" *ngFor="let loja of data" (click)="pegaFilial(loja.colaboradores, loja.filial)">
+            <p>{{loja.filial}}</p>
+        </div>
+        <p class="nota">Ultima atualização: 11/07/2017</p>
+        <img src="assets/baloes.png" width="100%">
+    </div>
+    <div class="col-md-9">
+        <h3>{{this.filial}}</h3>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Colaborador</th>
+                <th>Área</th>
+                <th>Aniversario</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let col of colaboradores">
+                <td>{{col.nome}}</td>
+                <td>{{col.local}}</td>
+                <td>{{col.aniversario}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

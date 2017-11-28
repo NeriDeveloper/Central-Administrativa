@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Abertura de Chamadas",
+    "link": "http://172.16.0.220/ocomon/",
+    "img": "assets/settings.png"
+  },
+  {
+    "nome": "WebMail",
+    "link": "https://webmail.superpao.com.br/",
+    "img": "assets/email.png"
+  },
+  {
+    "nome": "Qlikview",
+    "link": "http://172.16.0.14:8082/qlikview/index.htm",
+    "img": "assets/qlikview.png"
+  }
+]

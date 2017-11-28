@@ -1,0 +1,32 @@
+<div class="col-md-1"></div>
+<div class="col-md-10 container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img_cabecalho img-responsive" src="assets/cabecalho2.jpg">
+        </div>
+    </div>
+
+    <!-- Menu Central -->
+    <div class="col-md-12 text-center  menu_central">
+        <ul class="list-inline">
+            <li><a routerLinkActive="active" routerLink="/inicio">Inicio</a></li>
+            <li><a routerLinkActive="active" routerLink="/lojas">Nossas Lojas</a></li>
+         <!--<li><a routerLinkActive="active" routerLink="/treinamentos">Treinamentos</a></li>-->
+            <li><a routerLinkActive="active" routerLink="/sitesuteis">Sites Úteis</a></li>
+            <li><a routerLinkActive="active" routerLink="/contato">Contato</a></li>
+        </ul>
+    </div>
+
+    <!-- Corpo do Site -->
+    <!-- Principais Links -->
+
+    <router-outlet></router-outlet>
+
+    <footer class="col-md-12">
+        <div class="col-md-12 text-right creat_by">
+            Juliano Sirtori - 2017  <a routerLink="/login">Area Restrita</a> Versão 0.009
+        </div>
+
+    </footer>
+</div>

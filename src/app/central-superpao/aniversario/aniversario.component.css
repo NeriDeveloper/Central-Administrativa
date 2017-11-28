@@ -1,0 +1,36 @@
+.recipiente{
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    color: #070060;
+}
+
+.recipiente h2{
+    color: #d5df40;
+    font-weight: bolder;
+}
+
+
+
+.recipiente .loja{
+    background-color: #17a8ff;
+    color: white;
+    padding: 10px 5px 5px 5px;
+    font-size: 17px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.recipiente .loja:hover{
+    box-shadow: 0 0 10px white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: white;
+}
+
+.nota{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #070060;
+}

@@ -1,0 +1,33 @@
+<div class="col-md-12 recipiente">
+<div class="col-md-12 text-center">
+    <h3>Treinamentos</h3>
+    <p>Selecione ao lado um treinamento para começar</p>
+</div>
+    <div class="col-md-12">
+        <div class="col-md-3 tipo_treinamentos">
+            <div class="col-md-12 tipo_treinamento text-center" *ngFor="let t of treinamento" (click)="pegaTreinamento(t.documentos, t.nome)">
+                <p>{{t.local}}</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Nome</th>
+                    <th>Tamanho</th>
+                    <th>Ultima Modificação</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let t of documentos" (click)="baixarDoc(t.nome)">
+                    <td><img src="assets/office/{{t.tipo}}.png" width="30%"></td>
+                    <td>{{t.nome}}</td>
+                    <td>{{t.tamanho}}</td>
+                    <td>{{t.modificacao}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

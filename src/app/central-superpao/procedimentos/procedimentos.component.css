@@ -1,0 +1,35 @@
+.recepiente{
+    background-color: white;
+    margin-top: 0px;
+}
+
+.procedimentos{
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.procedimento{
+    color: white;
+    background-color: #4b4b4d;;
+    margin: 10px;
+    padding:  5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.procedimento:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 1s;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.procedimento div{
+    padding: 0px;
+}
+
+.procedimento a{
+    color: white;
+}

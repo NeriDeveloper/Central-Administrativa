@@ -1,0 +1,102 @@
+[
+  {
+    "cor": "#17a8ff",
+    "links": [
+      {
+        "nome": "Banco do Brasil",
+        "link": "http://www.bb.com.br/pbb/pagina-inicial#/",
+        "img": "assets/linksuteis/bb.png"
+      },
+      {
+        "nome": "Bradesco",
+        "link": "https://banco.bradesco/html/classic/index.shtm",
+        "img": "assets/linksuteis/bradesco.png"
+      },
+      {
+        "nome": "Santander",
+        "link": "https://www.santander.com.br/br/",
+        "img": "assets/linksuteis/santander.jpg"
+      },
+      {
+        "nome": "Itaú",
+        "link": "https://www.itau.com.br/",
+        "img": "assets/linksuteis/itau.png"
+      },
+      {
+        "nome": "Caixa",
+        "link": "http://www.caixa.gov.br/Paginas/home-caixa.aspx/",
+        "img": "assets/linksuteis/caixa.jpg"
+      },
+      {
+        "nome": "Senff",
+        "link": "http://www.senff.com.br/",
+        "img": "assets/linksuteis/senff.png"
+      }
+    ]
+  },
+  {
+    "cor": "#4b4b4d",
+    "links": [
+      {
+        "nome": "Receita Federal",
+        "link": "https://idg.receita.fazenda.gov.br/",
+        "img": "assets/linksuteis/receita_federal.jpg"
+      },
+      {
+        "nome": "NFE",
+        "link": "http://www.nfe.fazenda.gov.br/portal/principal.aspx",
+        "img": "assets/linksuteis/nfe.png"
+      },
+      {
+        "nome": "Speed Fiscal",
+        "link": "http://sped.rfb.gov.br/",
+        "img": "assets/linksuteis/speed.png"
+      }
+    ]
+  },
+  {
+    "cor": "crimson",
+    "links": [
+      {
+        "nome": "Web Mail",
+        "link": "https://webmail.superpao.com.br/",
+        "img": "assets/linksuteis/webmail.png"
+      },
+      {
+        "nome": "Gmail",
+        "link": "https://mail.google.com/mail/u/0/#inbox",
+        "img": "assets/linksuteis/gmail.png"
+      },
+      {
+        "nome": "Outlook",
+        "link": "https://login.live.com/",
+        "img": "assets/linksuteis/hotmail.png"
+      }
+    ]
+  },
+  {
+    "cor": "#d5df40",
+    "links": [
+      {
+        "nome": "Nota Paraná",
+        "link": "http://www.bb.com.br/pbb/pagina-inicial#/",
+        "img": "assets/linksuteis/nota_parana.png"
+      },
+      {
+        "nome": "Prefeitura de Guarapuava",
+        "link": "https://banco.bradesco/html/classic/index.shtm",
+        "img": "assets/linksuteis/prefeitura_guarapuava.jpg"
+      }
+    ]
+  },
+  {
+    "cor": "#006400",
+    "links": [
+      {
+        "nome": "Jusbrasil",
+        "link": "https://www.jusbrasil.com.br/home",
+        "img": "assets/linksuteis/jusbrasil.jpg"
+      }
+    ]
+  }
+]

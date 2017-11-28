@@ -1,0 +1,45 @@
+.recipiente{
+    background-color: white;
+}
+
+.recipiente input{
+    margin-top: 40px;
+    border: 1.5px solid #1468a0;
+}
+
+.lojas{
+    margin-top: 20px;
+}
+
+
+
+.loja{
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px #898989;
+    background-color: #1468a0;
+    margin: 5px;
+}
+
+.divList{
+    margin-top: 15px;
+}
+
+.loja a{
+    color: white;
+}
+
+.list_imagem{
+    background-color: white;
+    margin: 0px;
+    padding: 0;
+}
+
+.loja:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+

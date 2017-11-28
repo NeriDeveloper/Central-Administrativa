@@ -1,0 +1,14 @@
+<div class="radio col-lg-12">
+  <div class="col-lg-12 text-center cabecalho_radio">
+    <div class="logo">
+      <img src="../../assets/logo-platoniproducoes.png">
+      <h3>Selecione sua Loja abaixo:</h3>
+    </div>
+  </div>
+  <div class="col-lg-1"></div>
+  <div class="col-lg-10">
+  <div *ngFor="let radio of radios" class="col-lg-3">
+    <a class="btn btn-primary linkRadio" href="{{radio.link}}">{{radio.nome}}</a>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.recipiente{
+    background-color: white;
+    padding: 10px;
+}
+
+.detalhes_lojas{
+    font-size: 17px;
+}
+
+.detalhes_lojas span{
+    font-weight: bolder;
+}
+
+.detalhes_lojas hr{
+    margin: 5px;
+    border-color: rgba(9, 170, 255, 0.21);
+}
+
+.mapa{
+    margin-top: 30px;
+}
+
+.sebm-google-map-container {
+
+    height: 300px;
+}

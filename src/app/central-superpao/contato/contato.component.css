@@ -1,0 +1,22 @@
+.recipiente{
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+}
+
+.recipiente .contato{
+    background-color: rgba(30, 109, 255, 0.24);
+    padding: 20px;
+}
+
+.recipiente .cabecalho{
+    font-size: 18px;
+    color: #070060;
+}
+.recipiente .contatos{
+    font-size: 20px;
+    color: #070060;
+}
+
+.recipiente input, .recipiente textarea, .recipiente select {
+    border-color: #1468a0;
+}

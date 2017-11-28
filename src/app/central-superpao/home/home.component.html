@@ -1,0 +1,34 @@
+<div class="col-md-12 recipiente">
+
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div *ngFor="let data of dados" class="col-md-4 item_menu col-sm-4 text-center">
+      <a href="{{data.link}}">
+        <img class="img-rounded" src="{{data.img}}">
+        <h4>{{data.nome}}</h4>
+      </a>
+    </div>
+
+    <div class="col-md-4 item_menu col-sm-4 text-center">
+      <a routerLink="/procedimentos" >
+        <img class="img-rounded" src="assets/procedimentos.png">
+        <h4>Procedimentos</h4>
+      </a>
+    </div>
+    <div class="col-md-4 item_menu col-sm-4 text-center">
+      <a routerLink="/radio">
+        <img class="img-rounded" src="assets/radio.png">
+        <h4>Radio</h4>
+      </a>
+    </div>
+    <div class="col-md-4 item_menu col-sm-4 text-center">
+      <a routerLink="/aniversarios">
+        <img class="img-rounded" src="assets/aniversario.png">
+        <h4>Aniversariantes</h4>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+
+
+</div>

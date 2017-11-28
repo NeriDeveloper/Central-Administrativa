@@ -1,0 +1,23 @@
+<div class="col-md-12 col-lg-12  recipiente">
+
+    <div *ngFor="let data of dados"  class="col-lg-4 div_links"  >
+        <div class="col-md-12 col-lg-12 links" [ngStyle]="{'background-color':  data.cor  }">
+            <ul class="list-unstyled">
+                <li *ngFor="let link of data.links" class="link"><a href="{{link.link}}">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="col-md-8">
+                            <p>{{link.nome}}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{link.img}}">
+                        </div>
+                    </div>
+                    <hr>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

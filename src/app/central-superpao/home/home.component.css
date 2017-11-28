@@ -1,0 +1,46 @@
+.recipiente{
+    background-color: white;
+    height: auto;
+}
+
+.item_menu {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+@media (min-width: 770px) {
+    .item_menu {
+        height:  200px;
+    }
+    .item_menu img{
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 770px) {
+    .recipiente{
+        height: 500px;
+    }
+}
+
+.item_menu a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1468a0;
+}
+
+.item_menu a h4{
+    margin-top: 20px;
+}
+
+.item_menu img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 1s;
+    color: white;
+}
+
+
