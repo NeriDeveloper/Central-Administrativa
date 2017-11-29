@@ -1,15 +1,13 @@
-# CentralSuperPao
+# Portal GrupoSuperPao
 
-Primero Projeto utilizando Angular
+Portal utilizado como ferramenta para acessar atalhos de sistemas interno
 
-## Development server
+[Primero Projeto utilizando Angular2]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+1. Insira o comando `npm install` no terminal para realizar o download das dependencias.
+2. Para subir o servidor de desenvolvimento insira o camando `ng serve`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Para alterar os dados, icones, nomes, link, apresentados no portal basta editar os arquivos JSONs localizados dentro da pasta `/src/assets/dados/` mantendo o mesmo padrão.
